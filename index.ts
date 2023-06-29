@@ -6,7 +6,7 @@ let map: google.maps.Map, heatmap: google.maps.visualization.HeatmapLayer;
 
 function initMap(): void {
   map = new google.maps.Map(document.getElementById("map") as HTMLElement, {
-    zoom: 5,
+    zoom: 2,
     center: { lat: 40.68591152915883, lng: 14.528731882178715 },
     mapTypeId: "satellite",
   });
