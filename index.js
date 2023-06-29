@@ -53,7 +53,7 @@ function changeGradient() {
 }
 
 function changeRadius() {
-  heatmap.set("radius", heatmap.get("radius") ? null : 30);
+  heatmap.set("radius", heatmap.get("radius") ? null : 40);
 }
 
 function changeOpacity() {
