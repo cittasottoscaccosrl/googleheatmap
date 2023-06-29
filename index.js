@@ -5,7 +5,7 @@ let map, heatmap;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 2,
+    zoom: 18,
     center: { lat: 40.68591152915883, lng: 14.528731882178715 },
     mapTypeId: "roadmap",
   });
